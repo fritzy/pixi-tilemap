@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+		<div id="container" style="padding: 0; margin: 0; top:0; left: 0; right: 0; bottom: 0; position: fixed; margin: auto;"> </div>
+    </body>
+    <script src='bundle.js' type='text/javascript'></script>
+    <script>
+        console.log('this part works');
+        var game = new Game({
+            width: 1280,
+            height: 840,
+            container: document.getElementById('container')
+        });
+    </script>
+</html>
